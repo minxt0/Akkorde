@@ -1,6 +1,3 @@
-liste = ("a","b","c","d","e","f")
-
-
 def own_Enumerate(list:list,start:int=0):
     locallist = list
     iteration = start
@@ -11,4 +8,3 @@ def own_Enumerate(list:list,start:int=0):
         enumerated_list.append((iteration,i))
         iteration+=1
     return(enumerated_list)
-
